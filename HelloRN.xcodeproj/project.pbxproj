@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65C263BD80C15B64F4297FB /* libPods-HelloRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853F9936C8B604FA46256CFA /* libPods-HelloRN.a */; };
+		B62673371C58DC520002FE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62673361C58DC520002FE90 /* main.m */; };
+		B626733A1C58DC520002FE90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62673391C58DC520002FE90 /* AppDelegate.m */; };
+		B626733D1C58DC520002FE90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B626733C1C58DC520002FE90 /* ViewController.m */; };
+		B62673401C58DC520002FE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B626733E1C58DC520002FE90 /* Main.storyboard */; };
+		B62673421C58DC520002FE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62673411C58DC520002FE90 /* Assets.xcassets */; };
+		B62673451C58DC520002FE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62673431C58DC520002FE90 /* LaunchScreen.storyboard */; };
+		B62673501C58DC520002FE90 /* HelloRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B626734F1C58DC520002FE90 /* HelloRNTests.m */; };
+		B626735B1C58DC520002FE90 /* HelloRNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B626735A1C58DC520002FE90 /* HelloRNUITests.m */; };
+		B6BE9F561C5B4E3800A5B6D3 /* RCTMaperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE9F551C5B4E3800A5B6D3 /* RCTMaperManager.m */; settings = {ASSET_TAGS = (); }; };
+		B6BE9F5F1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE9F5E1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.m */; settings = {ASSET_TAGS = (); }; };
+		B6BE9F611C5B668600A5B6D3 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B6BE9F601C5B668600A5B6D3 /* index.jsbundle */; };
+		B6CC381C1C5B0B7400AED0ED /* RNRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC381B1C5B0B7400AED0ED /* RNRootView.m */; settings = {ASSET_TAGS = (); }; };
+		B6CC381F1C5B0DED00AED0ED /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC381E1C5B0DED00AED0ED /* CalendarManager.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B626734C1C58DC520002FE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B626732A1C58DC520002FE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62673311C58DC520002FE90;
+			remoteInfo = HelloRN;
+		};
+		B62673571C58DC520002FE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B626732A1C58DC520002FE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62673311C58DC520002FE90;
+			remoteInfo = HelloRN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ED72E9B76FFD745E0D80C1 /* Pods-HelloRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRN/Pods-HelloRN.debug.xcconfig"; sourceTree = "<group>"; };
+		853F9936C8B604FA46256CFA /* libPods-HelloRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62673321C58DC520002FE90 /* HelloRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62673361C58DC520002FE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62673381C58DC520002FE90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B62673391C58DC520002FE90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B626733B1C58DC520002FE90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B626733C1C58DC520002FE90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B626733F1C58DC520002FE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B62673411C58DC520002FE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62673441C58DC520002FE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B62673461C58DC520002FE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B626734B1C58DC520002FE90 /* HelloRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B626734F1C58DC520002FE90 /* HelloRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloRNTests.m; sourceTree = "<group>"; };
+		B62673511C58DC520002FE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62673561C58DC520002FE90 /* HelloRNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B626735A1C58DC520002FE90 /* HelloRNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloRNUITests.m; sourceTree = "<group>"; };
+		B626735C1C58DC520002FE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BE9F541C5B4E3800A5B6D3 /* RCTMaperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTMaperManager.h; path = ReactNative/RCTMaperManager.h; sourceTree = "<group>"; };
+		B6BE9F551C5B4E3800A5B6D3 /* RCTMaperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTMaperManager.m; path = ReactNative/RCTMaperManager.m; sourceTree = "<group>"; };
+		B6BE9F5D1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCTConverter+CoreLocation_RN.h"; path = "ReactNative/RCTConverter+CoreLocation_RN.h"; sourceTree = "<group>"; };
+		B6BE9F5E1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCTConverter+CoreLocation_RN.m"; path = "ReactNative/RCTConverter+CoreLocation_RN.m"; sourceTree = "<group>"; };
+		B6BE9F601C5B668600A5B6D3 /* index.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = index.jsbundle; path = ../index.jsbundle; sourceTree = "<group>"; };
+		B6CC381A1C5B0B7400AED0ED /* RNRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNRootView.h; path = ReactNative/RNRootView.h; sourceTree = "<group>"; };
+		B6CC381B1C5B0B7400AED0ED /* RNRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNRootView.m; path = ReactNative/RNRootView.m; sourceTree = "<group>"; };
+		B6CC381D1C5B0DED00AED0ED /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarManager.h; path = ReactNative/CalendarManager.h; sourceTree = "<group>"; };
+		B6CC381E1C5B0DED00AED0ED /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarManager.m; path = ReactNative/CalendarManager.m; sourceTree = "<group>"; };
+		F7D7B0D0E3D636CF1FEAB630 /* Pods-HelloRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRN/Pods-HelloRN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B626732F1C58DC520002FE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65C263BD80C15B64F4297FB /* libPods-HelloRN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673481C58DC520002FE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673531C58DC520002FE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61C2795915DC0DF93BC035A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04ED72E9B76FFD745E0D80C1 /* Pods-HelloRN.debug.xcconfig */,
+				F7D7B0D0E3D636CF1FEAB630 /* Pods-HelloRN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B62673291C58DC520002FE90 = {
+			isa = PBXGroup;
+			children = (
+				B62673341C58DC520002FE90 /* HelloRN */,
+				B626734E1C58DC520002FE90 /* HelloRNTests */,
+				B62673591C58DC520002FE90 /* HelloRNUITests */,
+				B62673331C58DC520002FE90 /* Products */,
+				61C2795915DC0DF93BC035A4 /* Pods */,
+				DD6F719EC9B58A10B0D46DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B62673331C58DC520002FE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62673321C58DC520002FE90 /* HelloRN.app */,
+				B626734B1C58DC520002FE90 /* HelloRNTests.xctest */,
+				B62673561C58DC520002FE90 /* HelloRNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62673341C58DC520002FE90 /* HelloRN */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC380E1C59E81B00AED0ED /* ReactNative */,
+				B62673381C58DC520002FE90 /* AppDelegate.h */,
+				B62673391C58DC520002FE90 /* AppDelegate.m */,
+				B626733B1C58DC520002FE90 /* ViewController.h */,
+				B626733C1C58DC520002FE90 /* ViewController.m */,
+				B626733E1C58DC520002FE90 /* Main.storyboard */,
+				B62673411C58DC520002FE90 /* Assets.xcassets */,
+				B62673431C58DC520002FE90 /* LaunchScreen.storyboard */,
+				B62673461C58DC520002FE90 /* Info.plist */,
+				B62673351C58DC520002FE90 /* Supporting Files */,
+			);
+			path = HelloRN;
+			sourceTree = "<group>";
+		};
+		B62673351C58DC520002FE90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE9F601C5B668600A5B6D3 /* index.jsbundle */,
+				B62673361C58DC520002FE90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B626734E1C58DC520002FE90 /* HelloRNTests */ = {
+			isa = PBXGroup;
+			children = (
+				B626734F1C58DC520002FE90 /* HelloRNTests.m */,
+				B62673511C58DC520002FE90 /* Info.plist */,
+			);
+			path = HelloRNTests;
+			sourceTree = "<group>";
+		};
+		B62673591C58DC520002FE90 /* HelloRNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B626735A1C58DC520002FE90 /* HelloRNUITests.m */,
+				B626735C1C58DC520002FE90 /* Info.plist */,
+			);
+			path = HelloRNUITests;
+			sourceTree = "<group>";
+		};
+		B6CC380E1C59E81B00AED0ED /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE9F5D1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.h */,
+				B6BE9F5E1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.m */,
+				B6BE9F541C5B4E3800A5B6D3 /* RCTMaperManager.h */,
+				B6BE9F551C5B4E3800A5B6D3 /* RCTMaperManager.m */,
+				B6CC381A1C5B0B7400AED0ED /* RNRootView.h */,
+				B6CC381B1C5B0B7400AED0ED /* RNRootView.m */,
+				B6CC381D1C5B0DED00AED0ED /* CalendarManager.h */,
+				B6CC381E1C5B0DED00AED0ED /* CalendarManager.m */,
+			);
+			name = ReactNative;
+			sourceTree = "<group>";
+		};
+		DD6F719EC9B58A10B0D46DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853F9936C8B604FA46256CFA /* libPods-HelloRN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62673311C58DC520002FE90 /* HelloRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B626735F1C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRN" */;
+			buildPhases = (
+				215125D0D13A01FBDBD8383E /* Check Pods Manifest.lock */,
+				B626732E1C58DC520002FE90 /* Sources */,
+				B626732F1C58DC520002FE90 /* Frameworks */,
+				B62673301C58DC520002FE90 /* Resources */,
+				BD834F3DCA70DF1061D93CBC /* Embed Pods Frameworks */,
+				9057336848B00E2CE5D8731B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloRN;
+			productName = HelloRN;
+			productReference = B62673321C58DC520002FE90 /* HelloRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B626734A1C58DC520002FE90 /* HelloRNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62673621C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRNTests" */;
+			buildPhases = (
+				B62673471C58DC520002FE90 /* Sources */,
+				B62673481C58DC520002FE90 /* Frameworks */,
+				B62673491C58DC520002FE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B626734D1C58DC520002FE90 /* PBXTargetDependency */,
+			);
+			name = HelloRNTests;
+			productName = HelloRNTests;
+			productReference = B626734B1C58DC520002FE90 /* HelloRNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B62673551C58DC520002FE90 /* HelloRNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62673651C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRNUITests" */;
+			buildPhases = (
+				B62673521C58DC520002FE90 /* Sources */,
+				B62673531C58DC520002FE90 /* Frameworks */,
+				B62673541C58DC520002FE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62673581C58DC520002FE90 /* PBXTargetDependency */,
+			);
+			name = HelloRNUITests;
+			productName = HelloRNUITests;
+			productReference = B62673561C58DC520002FE90 /* HelloRNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B626732A1C58DC520002FE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kang.yu.sh;
+				TargetAttributes = {
+					B62673311C58DC520002FE90 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B626734A1C58DC520002FE90 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B62673311C58DC520002FE90;
+					};
+					B62673551C58DC520002FE90 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B62673311C58DC520002FE90;
+					};
+				};
+			};
+			buildConfigurationList = B626732D1C58DC520002FE90 /* Build configuration list for PBXProject "HelloRN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62673291C58DC520002FE90;
+			productRefGroup = B62673331C58DC520002FE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62673311C58DC520002FE90 /* HelloRN */,
+				B626734A1C58DC520002FE90 /* HelloRNTests */,
+				B62673551C58DC520002FE90 /* HelloRNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62673301C58DC520002FE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE9F611C5B668600A5B6D3 /* index.jsbundle in Resources */,
+				B62673451C58DC520002FE90 /* LaunchScreen.storyboard in Resources */,
+				B62673421C58DC520002FE90 /* Assets.xcassets in Resources */,
+				B62673401C58DC520002FE90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673491C58DC520002FE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673541C58DC520002FE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		215125D0D13A01FBDBD8383E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9057336848B00E2CE5D8731B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloRN/Pods-HelloRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD834F3DCA70DF1061D93CBC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloRN/Pods-HelloRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B626732E1C58DC520002FE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B626733D1C58DC520002FE90 /* ViewController.m in Sources */,
+				B6BE9F561C5B4E3800A5B6D3 /* RCTMaperManager.m in Sources */,
+				B626733A1C58DC520002FE90 /* AppDelegate.m in Sources */,
+				B62673371C58DC520002FE90 /* main.m in Sources */,
+				B6CC381C1C5B0B7400AED0ED /* RNRootView.m in Sources */,
+				B6CC381F1C5B0DED00AED0ED /* CalendarManager.m in Sources */,
+				B6BE9F5F1C5B575800A5B6D3 /* RCTConverter+CoreLocation_RN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673471C58DC520002FE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62673501C58DC520002FE90 /* HelloRNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62673521C58DC520002FE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B626735B1C58DC520002FE90 /* HelloRNUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B626734D1C58DC520002FE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62673311C58DC520002FE90 /* HelloRN */;
+			targetProxy = B626734C1C58DC520002FE90 /* PBXContainerItemProxy */;
+		};
+		B62673581C58DC520002FE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62673311C58DC520002FE90 /* HelloRN */;
+			targetProxy = B62673571C58DC520002FE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B626733E1C58DC520002FE90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B626733F1C58DC520002FE90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B62673431C58DC520002FE90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62673441C58DC520002FE90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B626735D1C58DC520002FE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B626735E1C58DC520002FE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62673601C58DC520002FE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ED72E9B76FFD745E0D80C1 /* Pods-HelloRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62673611C58DC520002FE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D7B0D0E3D636CF1FEAB630 /* Pods-HelloRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B62673631C58DC520002FE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloRNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRN.app/HelloRN";
+			};
+			name = Debug;
+		};
+		B62673641C58DC520002FE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloRNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRN.app/HelloRN";
+			};
+			name = Release;
+		};
+		B62673661C58DC520002FE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HelloRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloRN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B62673671C58DC520002FE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HelloRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NC.HelloRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloRN;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B626732D1C58DC520002FE90 /* Build configuration list for PBXProject "HelloRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B626735D1C58DC520002FE90 /* Debug */,
+				B626735E1C58DC520002FE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B626735F1C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62673601C58DC520002FE90 /* Debug */,
+				B62673611C58DC520002FE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62673621C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62673631C58DC520002FE90 /* Debug */,
+				B62673641C58DC520002FE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62673651C58DC520002FE90 /* Build configuration list for PBXNativeTarget "HelloRNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62673661C58DC520002FE90 /* Debug */,
+				B62673671C58DC520002FE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B626732A1C58DC520002FE90 /* Project object */;
+}
